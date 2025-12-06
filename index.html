@@ -179,7 +179,7 @@
       </div>
 
       <aside class="profile-card" role="region" aria-label="Profile and contact">
-        <img class="avatar" src="https://via.placeholder.com/480x300?text=Arpan+Santra+Photo" alt="Headshot: Arpan Santra">
+        <img class="avatar" src="headshot.jpg" alt="Headshot: Arpan Santra">
         <div style="margin-top:12px;display:flex;justify-content:space-between;align-items:center">
           <div>
             <div style="font-weight:800">Arpan Santra</div>
@@ -194,13 +194,13 @@
         <div class="contact" style="margin-top:12px">
           <a href="mailto:arpansantra05@gmail.com">arpansantra05@gmail.com</a>
           <a href="tel:+919163823332">(+91) 91638 23332</a>
-          <a href="https://www.linkedin.com/in/arpan5/" target="_blank" rel="noopener">linkedin.com/in/arpan5</a>
+          <a href="https://github.com/arpan5" target="_blank" rel="noopener">github.com/arpan5</a>
         </div>
 
         <div style="margin-top:12px;display:flex;gap:8px;flex-wrap:wrap">
-          <a class="link-pill" href="#" title="GitHub">GitHub</a>
-          <a class="link-pill" href="#" title="Postman">Postman</a>
-          <a class="link-pill" href="#" title="Power BI">Power BI</a>
+          <a class="link-pill" href="https://github.com/arpan5" title="GitHub">GitHub — arpan5</a>
+          <a class="link-pill" href="#" title="Postman">Postman collections</a>
+          <a class="link-pill" href="#" title="Power BI">Power BI demo</a>
         </div>
 
         <div style="margin-top:12px" class="muted">Location: Kolkata, India</div>
@@ -233,7 +233,7 @@
                       <li><strong>Outcome:</strong> Reduced regression time to ~40 minutes, increased coverage of smoke flows to 80%, and cut release-checklist effort by 70%.</li>
                     </ul>
                     <div style="margin-top:8px">
-                      <a class="link-pill" href="#" title="Repo">Repo</a>
+                      <a class="link-pill" href="https://github.com/arpan5" title="Repo">Repo</a>
                       <a class="link-pill" href="#" title="Test report">Report</a>
                       <a class="link-pill" href="#" title="Demo">Demo GIF</a>
                     </div>
@@ -397,7 +397,7 @@
         <section class="card" style="margin-top:12px">
           <h3 style="margin:0 0 8px 0">Quick links</h3>
           <div style="display:flex;flex-direction:column;gap:8px;margin-top:8px">
-            <a class="link-pill" href="#" title="GitHub">GitHub — automation repos</a>
+            <a class="link-pill" href="https://github.com/arpan5" title="GitHub">GitHub — automation repos</a>
             <a class="link-pill" href="#" title="Postman">Postman collections</a>
             <a class="link-pill" href="#" title="Power BI">Power BI demo</a>
             <a class="btn btn-primary" href="Resume.pdf" download style="display:inline-block;margin-top:10px">Download resume</a>
@@ -468,11 +468,10 @@
       const formMsg = document.getElementById('formMsg');
       if(!email || !msg){ formMsg.textContent = 'Please enter both email and message.'; return; }
       const subject = encodeURIComponent('Portfolio contact from ' + email);
-      const body = encodeURIComponent(msg + '\\n\\n-- Sent from portfolio');
+      const body = encodeURIComponent(msg + '\n\n-- Sent from portfolio');
       window.location.href = `mailto:arpansantra05@gmail.com?subject=${subject}&body=${body}`;
       formMsg.textContent = 'Opening your email client...';
     });
   </script>
 </body>
 </html>
-
