@@ -179,7 +179,7 @@
       </div>
 
       <aside class="profile-card" role="region" aria-label="Profile and contact">
-        <img class="avatar" src="headshot.jpg" alt="Headshot: Arpan Santra">
+        <img class="avatar" src="https://via.placeholder.com/480x300?text=Arpan+Santra+Photo" alt="Headshot: Arpan Santra">
         <div style="margin-top:12px;display:flex;justify-content:space-between;align-items:center">
           <div>
             <div style="font-weight:800">Arpan Santra</div>
@@ -198,9 +198,9 @@
         </div>
 
         <div style="margin-top:12px;display:flex;gap:8px;flex-wrap:wrap">
-          <a class="link-pill" href="https://github.com/arpan5" title="GitHub">GitHub — arpan5</a>
-          <a class="link-pill" href="#" title="Postman">Postman collections</a>
-          <a class="link-pill" href="#" title="Power BI">Power BI demo</a>
+          <a class="link-pill" href="#" title="GitHub">GitHub</a>
+          <a class="link-pill" href="#" title="Postman">Postman</a>
+          <a class="link-pill" href="#" title="Power BI">Power BI</a>
         </div>
 
         <div style="margin-top:12px" class="muted">Location: Kolkata, India</div>
@@ -230,10 +230,10 @@
                     <ul class="muted">
                       <li><strong>Problem:</strong> Manual regression took ~6 hours before each release and produced inconsistent coverage.</li>
                       <li><strong>Approach:</strong> Built a reusable framework (POM), parallelized tests with pytest-xdist, and integrated into GitHub Actions for nightly runs.</li>
-                      <li><strong>Outcome:</strong> Reduced regression time to ~40 minutes, increased coverage of smoke flows to 80%, and cut release-checklist effort by ~70%.</li>
+                      <li><strong>Outcome:</strong> Reduced regression time to ~40 minutes, increased coverage of smoke flows to 80%, and cut release-checklist effort by 70%.</li>
                     </ul>
                     <div style="margin-top:8px">
-                      <a class="link-pill" href="https://github.com/arpan5" title="Repo">Repo</a>
+                      <a class="link-pill" href="#" title="Repo">Repo</a>
                       <a class="link-pill" href="#" title="Test report">Report</a>
                       <a class="link-pill" href="#" title="Demo">Demo GIF</a>
                     </div>
@@ -255,7 +255,224 @@
                     <ul class="muted">
                       <li><strong>Problem:</strong> Critical API regressions escaped to production during feature releases.</li>
                       <li><strong>Approach:</strong> Designed Postman collections, parametrized environments, linting with newman-reporter, and added a gated check in GitHub Actions.</li>
-# (truncated for brevity in code cell; full HTML continues below)
+                      <li><strong>Outcome:</strong> Caught 3+ critical regressions before releases and improved dev-feedback loop (faster fixes).</li>
+                    </ul>
+                    <div style="margin-top:8px">
+                      <a class="link-pill" href="#" title="Postman">Postman</a>
+                      <a class="link-pill" href="#" title="CI job">CI job</a>
+                    </div>
+                  </div>
+                </details>
+              </div>
+            </article>
 
-<!-- Full HTML continues. For the downloadable package, the real full HTML has been used. -->
-</body></html>
+            <!-- Project 3 -->
+            <article>
+              <img class="project-thumb" src="https://via.placeholder.com/900x500?text=Performance+Testing" alt="Performance Testing screenshot">
+              <div style="margin-top:8px">
+                <div class="project-title">Performance Testing — JMeter (Checkout)</div>
+                <div class="project-desc">Load-tested checkout flow and analysed backend traces to identify bottlenecks affecting peak traffic.</div>
+
+                <details style="margin-top:10px">
+                  <summary>Read more — approach & outcome</summary>
+                  <div style="margin-top:8px">
+                    <ul class="muted">
+                      <li><strong>Problem:</strong> Slow checkout during promotional spikes causing abandoned carts.</li>
+                      <li><strong>Approach:</strong> Custom JMeter scripts simulating concurrent users; correlation & response-time breakdown; DB & query profiling.</li>
+                      <li><strong>Outcome:</strong> Identified heavy DB join; fix reduced median response times by ~45% at peak loads.</li>
+                    </ul>
+                    <div style="margin-top:8px">
+                      <a class="link-pill" href="#" title="JMeter report">Report</a>
+                      <a class="link-pill" href="#" title="Findings">Findings</a>
+                    </div>
+                  </div>
+                </details>
+              </div>
+            </article>
+          </div>
+
+          <!-- More projects expanded -->
+          <div style="margin-top:14px">
+            <div class="card">
+              <h3 style="margin:0 0 8px 0">Other highlights</h3>
+              <ul class="muted" style="margin-top:8px">
+                <li>Power BI dashboards: interactive sales & regional KPIs using Power Query & DAX; published to Power BI Service for stakeholders.</li>
+                <li>Field validations & UAT for Unnati and Vistaar apps — coordinated with business and field teams for real-world test coverage.</li>
+                <li>Flaky test reduction: introduced isolation & seed data strategies to reduce flakiness by ~75%.</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- Experience timeline -->
+        <section id="experience" class="card" style="margin-top:16px" aria-labelledby="experience-title">
+          <h2 class="section-title" id="experience-title">Experience & timeline</h2>
+          <div class="timeline" style="margin-top:12px">
+            <div class="tl-item">
+              <div class="tl-meta">IT Executive — ITC Infotech (Feb 2023 – Present)</div>
+              <div class="muted">Kolkata, India</div>
+              <div style="margin-top:8px" class="muted">Key responsibilities: test planning, manual & automation testing, CI integration, performance testing, release coordination, Power BI dashboards.</div>
+              <ul class="muted" style="margin-top:8px">
+                <li>Authored end-to-end test plans, executed UAT and regression cycles for core modules (inventory, ordering, checkout).</li>
+                <li>Built automation suites and connected them to CI for nightly and gated runs.</li>
+                <li>Prepared stakeholder dashboards showing release readiness and QA metrics.</li>
+              </ul>
+            </div>
+
+            <div class="tl-item">
+              <div class="tl-meta">IT Analyst Intern — Carrier Solutions</div>
+              <div class="muted">Data quality & reporting</div>
+              <div style="margin-top:8px" class="muted">Worked on data pipelines to ensure reliable reporting sources and ETL checks.</div>
+            </div>
+
+            <div class="tl-item">
+              <div class="tl-meta">Business Dev & Marketing Intern — Digifuse</div>
+              <div class="muted">Market analysis & Power BI</div>
+              <div style="margin-top:8px" class="muted">Market research, forecasting, and interactive dashboards for client presentations.</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="card" style="margin-top:16px" aria-labelledby="testi-title">
+          <h2 class="section-title" id="testi-title">Recommendations & feedback</h2>
+          <div style="margin-top:12px;display:flex;gap:12px;flex-direction:column">
+            <div class="testi card" style="padding:12px">
+              <div class="avatar-sm">PM</div>
+              <div style="flex:1">
+                <div style="font-weight:800">Project Manager — ITC</div>
+                <div class="muted" style="margin-top:6px">"Arpan's automation work saved our release team hours every sprint and made the nightly builds trustworthy."</div>
+              </div>
+            </div>
+
+            <div class="testi card" style="padding:12px">
+              <div class="avatar-sm">TL</div>
+              <div style="flex:1">
+                <div style="font-weight:800">Tech Lead — ITC</div>
+                <div class="muted" style="margin-top:6px">"Strong debugging skills and clear test reports — consistently finds the meaningful bugs."</div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- RIGHT / sidebar -->
+      <aside>
+        <!-- Skills -->
+        <section id="skills" class="card" aria-labelledby="skills-title">
+          <h2 class="section-title" id="skills-title">Skills & tools</h2>
+          <div style="margin-top:10px" class="skills">
+            <div class="skill-row"><div class="skill-name">Test Automation (Selenium / Playwright)</div><div class="skill-bar"><div class="skill-fill" data-pct="88"></div></div></div>
+            <div class="skill-row"><div class="skill-name">API Testing (Postman / Newman)</div><div class="skill-bar"><div class="skill-fill" data-pct="84"></div></div></div>
+            <div class="skill-row"><div class="skill-name">Performance (JMeter)</div><div class="skill-bar"><div class="skill-fill" data-pct="76"></div></div></div>
+            <div class="skill-row"><div class="skill-name">Data & Reporting (SQL / Power BI)</div><div class="skill-bar"><div class="skill-fill" data-pct="80"></div></div></div>
+            <div class="skill-row"><div class="skill-name">Python scripting</div><div class="skill-bar"><div class="skill-fill" data-pct="72"></div></div></div>
+          </div>
+
+          <div style="margin-top:12px" class="muted">Tools:</div>
+          <div style="margin-top:8px;display:flex;flex-wrap:wrap;gap:8px">
+            <div class="link-pill">Selenium</div><div class="link-pill">Appium</div><div class="link-pill">Postman</div>
+            <div class="link-pill">JMeter</div><div class="link-pill">pytest</div><div class="link-pill">GitHub Actions</div>
+            <div class="link-pill">Power BI</div><div class="link-pill">Zoho/Bugzilla</div>
+          </div>
+        </section>
+
+        <!-- Certifications & awards -->
+        <section class="card" style="margin-top:12px">
+          <h3 style="margin:0 0 8px 0">Certifications & awards</h3>
+          <ul class="muted" style="margin-top:8px;padding-left:16px">
+            <li>ISTQB Foundation Level v4.0</li>
+            <li>ML Using Python</li>
+            <li>Diploma in IT Application</li>
+            <li>Computer Hardware & Networking</li>
+          </ul>
+
+          <div style="margin-top:12px">
+            <h4 style="margin:0 0 8px 0">Awards</h4>
+            <div class="muted">Pat On The BAT — Individual (Sep 2024, Aug 2025)</div>
+          </div>
+        </section>
+
+        <!-- Quick links / resume -->
+        <section class="card" style="margin-top:12px">
+          <h3 style="margin:0 0 8px 0">Quick links</h3>
+          <div style="display:flex;flex-direction:column;gap:8px;margin-top:8px">
+            <a class="link-pill" href="#" title="GitHub">GitHub — automation repos</a>
+            <a class="link-pill" href="#" title="Postman">Postman collections</a>
+            <a class="link-pill" href="#" title="Power BI">Power BI demo</a>
+            <a class="btn btn-primary" href="Resume.pdf" download style="display:inline-block;margin-top:10px">Download resume</a>
+          </div>
+        </section>
+
+        <!-- Contact form -->
+        <section id="contact" class="card" style="margin-top:12px" aria-labelledby="contact-title">
+          <h3 id="contact-title" style="margin:0 0 8px 0">Contact</h3>
+          <p class="muted">Open to full-time QA roles, contract automation work, and collaboration on testing pipelines. Share a short brief and repo link and I'll respond with an approach.</p>
+
+          <form id="contactForm" style="margin-top:10px">
+            <label style="font-weight:700;font-size:13px">Your email</label>
+            <input id="email" type="email" placeholder="you@company.com" style="width:100%;padding:10px;border-radius:8px;border:1px solid #e6eef9;margin-top:6px">
+
+            <label style="font-weight:700;font-size:13px;margin-top:10px;display:block">Message</label>
+            <textarea id="message" rows="4" placeholder="Brief message & link to repo/demo" style="width:100%;padding:10px;border-radius:8px;border:1px solid #e6eef9;margin-top:6px"></textarea>
+
+            <div style="display:flex;gap:8px;margin-top:10px">
+              <button type="button" id="sendBtn" class="btn btn-primary">Send (mailto)</button>
+              <a class="btn btn-outline" href="mailto:arpansantra05@gmail.com">Email directly</a>
+            </div>
+            <div id="formMsg" style="margin-top:8px;color:var(--muted);font-size:13px"></div>
+          </form>
+        </section>
+      </aside>
+    </div>
+
+    <footer>
+      <div>© <span id="year"></span> Arpan Santra</div>
+      <div class="muted">Built with care — QA portfolio</div>
+    </footer>
+  </div>
+
+  <script>
+    // Animated stats
+    function animateNumber(el, target, duration=1000) {
+      const start = 0;
+      const range = target - start;
+      const startTime = performance.now();
+      function step(now) {
+        const t = Math.min(1, (now - startTime)/duration);
+        el.textContent = Math.floor(start + range*t);
+        if (t < 1) requestAnimationFrame(step);
+      }
+      requestAnimationFrame(step);
+    }
+    document.addEventListener('DOMContentLoaded', ()=> {
+      document.querySelectorAll('.stat .num').forEach(el=>{
+        const t = parseInt(el.getAttribute('data-target') || el.textContent || '0',10);
+        animateNumber(el, t, 900 + Math.random()*600);
+      });
+
+      // animate skill fills
+      document.querySelectorAll('.skill-fill').forEach((el,i)=>{
+        const pct = el.getAttribute('data-pct') || '60';
+        setTimeout(()=> el.style.width = pct + '%', 200 + i*120);
+      });
+
+      // year
+      document.getElementById('year').textContent = new Date().getFullYear();
+    });
+
+    // contact form -> mailto
+    document.getElementById('sendBtn').addEventListener('click', ()=>{
+      const email = document.getElementById('email').value.trim();
+      const msg = document.getElementById('message').value.trim();
+      const formMsg = document.getElementById('formMsg');
+      if(!email || !msg){ formMsg.textContent = 'Please enter both email and message.'; return; }
+      const subject = encodeURIComponent('Portfolio contact from ' + email);
+      const body = encodeURIComponent(msg + '\\n\\n-- Sent from portfolio');
+      window.location.href = `mailto:arpansantra05@gmail.com?subject=${subject}&body=${body}`;
+      formMsg.textContent = 'Opening your email client...';
+    });
+  </script>
+</body>
+</html>
+
